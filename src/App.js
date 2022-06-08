@@ -28,18 +28,20 @@ function App() {
 
   return (
     <div>
-      <Nav
+      <Header>
+      {/* <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
-      ></Nav>
+      ></Nav> */}
+      </Header>
       <main>
         <div>
           {!contactSelected ? (
             <>
-              <Gallery currentCategory={currentCategory}></Gallery>
+              {/* <Gallery currentCategory={currentCategory}></Gallery> */}
               <About></About>
             </>
           ) : (
@@ -47,6 +49,7 @@ function App() {
           )}
         </div>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
