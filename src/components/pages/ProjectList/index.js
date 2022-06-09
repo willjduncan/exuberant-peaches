@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Modal from '../Modal';
+import Modal from '../Project';
 
-const ProjectList = ({currentProject}) => {
+const ProjectList = ({name}) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentProject, setCurrentProject] = useState();
 
@@ -56,7 +56,7 @@ const ProjectList = ({currentProject}) => {
     }
   ]);
 
-  const currentProject = project.filter(project => project.name === name);
+  const currentProjects = projects.filter(project => project.name === name);
 
   const toggleModal = (image, i) => {
     setCurrentProject({ ...image, index: i });
@@ -71,8 +71,9 @@ const ProjectList = ({currentProject}) => {
       <div className="flex-row">
         {currentProjects.map((image, i) => (
           <img
-            src={require(`../../assets/small/${category}/${i}.jpg`).default}
-            alt={image.name}
+            // src={require(`../../assets/small/${category}/${i}.jpg`).default}
+            src={projects.img}
+            // alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}
             key={image.name}
@@ -83,4 +84,4 @@ const ProjectList = ({currentProject}) => {
   );
 };
 
-export default PhotoList;
+export default ProjectList;

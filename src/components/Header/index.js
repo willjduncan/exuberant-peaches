@@ -33,7 +33,9 @@ export default function Header() {
       </h1>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
+        <main>
       {renderPage()}
+        </main>
     </div>
   );
 }
