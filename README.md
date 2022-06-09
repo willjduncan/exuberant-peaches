@@ -27,7 +27,7 @@ I WANT to view a potential employee's deployed React portfolio of work samples
 
 SO THAT I can assess whether they're a good candidate for an open position
 
-<!-- Budget Tracker is an application that allows users to update their finances. More importantly, this is an opportunity to practice turning applications into Progressive Web Applications by improving runtimes, providing offline capabilities, and making a downloadable application. These are cutting-edge improvements that will greatly increase the quality of user experience.  -->
+I designed this portfolio to show off my best coding projects, resume, and abilities so that potential employers can easily and enjoyably access them. The website itself will be another way to show off my coding skills, particularly with React.js.
 
 Once complete, the program should operate so that:
 
@@ -116,7 +116,7 @@ Screenshots of the idb.js, manifest.json, and service-worker.js files are below,
 
 <!-- The coding boot camp Professional README Guide found at https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide was used as a template for this README. The license was picked from [https://choosealicense.com/](https://choosealicense.com/).The WHEN/THEN section of this README was based off the project assignment Acceptance Criteria. Most influence was taken from Lesson 4 of Pizza Hunt of Module 18 and the Food Festival PWA of Module 19. Stack Overflow, MDN Web Docs, W3, and Google were critical to our success. IndexedDB, MongoDB, MongoDB Atlas, and Chrome DevTools were also used.  -->
 
-The icons in the footer were taken from flaticon: [https://www.flaticon.com/](https://www.flaticon.com/free-icons/book)
+The icons in the footer were taken from flaticon: [https://www.flaticon.com/](https://www.flaticon.com/free-icons/book). Images were for Budget Tracker and Pizza Hunt were taken from Pixabay. 
 
 
 
