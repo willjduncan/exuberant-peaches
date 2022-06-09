@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Nav from "./components/Nav";
-import About from "./components/About";
+import About from "./components/pages/About";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
-import Project from "./components/Project";
-import Resume from "./components/Resume";
+import Project from "./components/pages/Project";
+import Resume from "./components/pages/Resume";
 import Footer from "./components/Footer";
-import ContactForm from "./components/Contact";
+import ContactForm from "./components/pages/Contact";
 
 function App() {
   const [categories] = useState([

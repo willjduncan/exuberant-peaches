@@ -21,27 +21,67 @@ Will Duncan's Professional Portfolio
 
 ## Description
 
-AS AN avid traveler
+AS AN employer looking for candidates with experience building single-page applications
 
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+I WANT to view a potential employee's deployed React portfolio of work samples
 
-SO THAT my account balance is accurate when I am traveling 
+SO THAT I can assess whether they're a good candidate for an open position
 
-Budget Tracker is an application that allows users to update their finances. More importantly, this is an opportunity to practice turning applications into Progressive Web Applications by improving runtimes, providing offline capabilities, and making a downloadable application. These are cutting-edge improvements that will greatly increase the quality of user experience. 
+<!-- Budget Tracker is an application that allows users to update their finances. More importantly, this is an opportunity to practice turning applications into Progressive Web Applications by improving runtimes, providing offline capabilities, and making a downloadable application. These are cutting-edge improvements that will greatly increase the quality of user experience.  -->
 
 Once complete, the program should operate so that:
 
-GIVEN a budget tracker without an internet connection
+GIVEN a single-page application portfolio for a web developer
 
-WHEN the user inputs an expense or deposit
+WHEN I load the portfolio
 
-THEN they will receive a notification that they have added an expense or deposit
+THEN I am presented with a page containing a header, a section for content, and a footer
 
-WHEN the user reestablishes an internet connection
+WHEN I view the header
 
-THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
+THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 
-I began with what I most recently learned and worked back from there, beginning with the manifest, moving to the service worker, and then to the idb.js file. The vast majority, if not all of, off the process was done by rereading the last two modules and making proper changes to the names. Any difficulties were resolved by double checking the lesson information. 
+WHEN I view the navigation titles
+
+THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+
+WHEN I click on a navigation title
+
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+
+WHEN I load the portfolio the first time
+
+THEN the About Me title and section are selected by default
+
+WHEN I am presented with the About Me section
+
+THEN I see a recent photo or avatar of the developer and a short bio about them
+
+WHEN I am presented with the Portfolio section
+
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
+
+WHEN I am presented with the Contact section
+
+THEN I see a contact form with fields for a name, an email address, and a message
+
+WHEN I move my cursor out of one of the form fields without entering text
+
+THEN I receive a notification that this field is required
+
+WHEN I enter text into the email address field
+
+THEN I receive a notification if I have entered an invalid email address
+
+WHEN I am presented with the Resume section
+
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+
+WHEN I view the footer
+
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
+<!-- I began with what I most recently learned and worked back from there, beginning with the manifest, moving to the service worker, and then to the idb.js file. The vast majority, if not all of, off the process was done by rereading the last two modules and making proper changes to the names. Any difficulties were resolved by double checking the lesson information.  -->
 
 
 
@@ -52,7 +92,7 @@ Links to the repository and the deployed page can be found at [Questions](#quest
 
 While this project's repository is available on Github, the page is deployed to heroku. If you clone the repo you must run the command "npm install" on the Terminal/Command Line and download the dependencies, most of which are mentioned in [Credits](#credits). 
 
-
+ 
 
 
 ## Usage
@@ -96,12 +136,12 @@ No tests written were made for this project, but Chrome DevTools is a critical t
 
 The github repository to this project is below:
 
-[https://github.com/willjduncan/cuddly-pinnacle.git](https://github.com/willjduncan/cuddly-pinnacle.git)
+[https://github.com/willjduncan/exuberant-peaches.git](https://github.com/willjduncan/exuberant-peaches.git)
 
 
-The live website is deployed on heroku. The URL is below:
+<!-- The live website is deployed on Github. The URL is below:
 
-[https://secure-hollows-12001.herokuapp.com/](https://secure-hollows-12001.herokuapp.com/)
+[https://secure-hollows-12001.herokuapp.com/](https://secure-hollows-12001.herokuapp.com/) -->
 
 
 For any additional questions, I can be reached at the following
@@ -140,9 +180,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
