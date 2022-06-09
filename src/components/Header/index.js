@@ -1,25 +1,26 @@
 import React, { useState } from 'react';
 import Nav from '../Nav';
-// import Home from './pages/Home';
+import Resume from '../pages/Resume';
 import About from '../pages/About';
-import Project from '../pages/Project';
+import Portfolio from '../pages/Portfolio';
 import ContactForm from '../pages/Contact';
 
 export default function Header() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
-  // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
-    // if (currentPage === 'Home') {
-    //   return <Home />;
-    // }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Project') {
-      return <Project />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
-    return <ContactForm />;
+    if (currentPage === 'Contact') {
+        return <ContactForm />;
+      }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -32,7 +33,7 @@ export default function Header() {
       </h1>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
-      {/* {renderPage()} */}
+      {renderPage()}
     </div>
   );
 }
