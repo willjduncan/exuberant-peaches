@@ -81,8 +81,7 @@ WHEN I view the footer
 
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
-<!-- I began with what I most recently learned and worked back from there, beginning with the manifest, moving to the service worker, and then to the idb.js file. The vast majority, if not all of, off the process was done by rereading the last two modules and making proper changes to the names. Any difficulties were resolved by double checking the lesson information.  -->
-
+I began with the framework, deciding to meld the file layout shown in Module 20 with they layout of activity 4 of Module 20's in-class assignments. After some trial and error, the components were set up in a way that satisfied me and I moved on to the styling. I decided to try and avoid using bootstrap in order to lower the amount of dependencies and keep reaction time quick. I styled component by component, beginning with the header and footer before moving on to the About page, Resume page, Contact page, and then Portfolio page before going back and completing the media queries. 
 
 
 
@@ -90,7 +89,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 Links to the repository and the deployed page can be found at [Questions](#questions).
 
-While this project's repository is available on Github, the page is deployed to heroku. If you clone the repo you must run the command "npm install" on the Terminal/Command Line and download the dependencies, most of which are mentioned in [Credits](#credits). 
+If you clone the repo you must run the command "npm install" on the Terminal/Command Line and download the dependencies. 
 
  
 
@@ -99,17 +98,17 @@ While this project's repository is available on Github, the page is deployed to 
 
 Once the project is cloned and the dependencies downloaded, type "npm start" to run the program. 
 
-A screenshot site offline and then online are shown, displaying the offline functionality of the program. The $20 dinner was the transaction being processed in the example.
+A screenshot of the About page, Portfolio page, and Contact page are below. Note that the Contact page is providing validation and feedback on the inputs.
 
-![screenshot of site, offline](./images/screenshot-offline.png)
-![screenshot of site, online](./images/screenshot-online.png)
+![screenshot of About page](./screenshots/screenshot-about.png)
+![screenshot of Portfolio page](./screenshots/screenshot-portfolio.png)
+![screenshot of Contact page](./screenshots/screenshot-contact.png)
 
 
-Screenshots of the idb.js, manifest.json, and service-worker.js files are below, displaying the main files worked on: 
+Screenshots of the Nav component's index.js and ProjectList's index.js are below: 
 
-![screenshot of idb.js](./images/screenshot-idb.png)
-![screenshot of manifest.json](./images/screenshot-manifest.png)
-![screenshot of service-worker.js](./images/screenshot-sw.png)
+![screenshot of Nav component](./screenshots/screenshot-nav.png)
+![screenshot of ProjectList component](./screenshots/screenshot-projectlist.png)
 
 
 ## Credits
@@ -176,64 +175,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
