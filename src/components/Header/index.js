@@ -27,9 +27,9 @@ export default function Header() {
   
   return (
     <div>
-    <header>
+    <header className='header'>
       <h1>
-        <a href="/">WILL DUNCAN</a>
+        <a href="./">WILL DUNCAN</a>
       </h1>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
