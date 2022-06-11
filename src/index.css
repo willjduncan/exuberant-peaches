@@ -20,6 +20,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 216, 174, 0.53687412464986) 100%
+  );
+}
+
 /* HEADER STYLES START */
 header {
   padding: 20px 35px;
@@ -70,16 +79,12 @@ header ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
 }
-/* HEADER STYLES END */
-
-main {
-  background: rgb(255, 255, 255);
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(246, 216, 174, 0.53687412464986) 100%
-  );
+.navActive {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 15px;
 }
+/* HEADER STYLES END */
 
 /* ABOUT ME STYLES START */
 .about-img {
@@ -118,34 +123,22 @@ main {
   margin-right: 30px;
   margin-left: auto;
 }
-
-.about-me-text {
-  line-height: 1.7;
-  width: 75%;
-  text-align: center;
-  margin: auto;
-}
-.about-me-text h3 {
-  font-size: 28px;
-}
-.about-me-text p {
-  width: 75%;
-  font-size: 20px;
-  margin: 0 auto;
-}
 /* ABOUT ME STYLES END */
 /* WORK STYLES START */
-.border-bot,
-.about-title {
+.project-basin {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  justify-content: space-around;
+}
+.portfolio-header {
   border-bottom: 3px solid var(--primary-color);
   width: 80%;
   text-align: center;
-  margin: 40px auto 20px auto;
+  margin: 0 auto 20px auto;
   font-size: 45px;
   color: var(--secondary-color);
-}
-.card-style {
-  background-color: rgb(109, 211, 206, 0.5);
+  text-shadow: 0 0 3px rgba(0, 0, 0, .2);
 }
 .card {
   color: var(--fifth);
@@ -153,9 +146,15 @@ main {
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
   -o-transition: all 0.6s;
-  /* border: 2px solid #ccc; */
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  padding: 0;
+    background-size: cover;
+    opacity: 0.7;
+    border: 3px solid var(--secondary-color);
+    border-radius: 10px 10px 10px;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    margin: 20px;
 }
 
 #work h2 {
@@ -164,28 +163,25 @@ main {
 .work-boxes {
   gap: 20px;
 }
-.card {
-  background-size: cover;
-  opacity: 0.7;
-  border: 3px solid var(--secondary-color);
-  border-radius: 10px 10px 10px;
-}
+
 .card img {
   border-radius: 7px 7px 7px;
+  height: 200px;
+  width: 100%;
 }
 .card:hover {
-  /* box-shadow: 3px 3px 3px var(--fourth-color); */
-  background-color: rgb(109, 211, 206, 0.7);
-  border: 3px solid var(--fifth-color);
+  box-shadow: 3px 3px 3px rgb(46, 64, 87, 0.5);
+  background-color: var(--primary-color);
+  border: 3px solid var(--secondary-color);
   opacity: 1;
 }
-.card p {
+.card a p {
   color: var(--tertiary-color);
-  font-size: 16px;
+  font-size: 24px;
 }
+
 .card a {
   font-size: 20px;
-  line-height: 1.5;
   color: var(--secondary-color);
   text-decoration: none;
   font-weight: bold;
@@ -193,6 +189,71 @@ main {
 .project-name {
   background-color: var(--fifth-color);
 }
+
+.modalBackdrop {
+  background: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  color: var(--primary-color)
+}
+
+.modalContainer {
+  background: var(--darker);
+  border-radius: 5px;
+  max-width: 100%;
+  justify-content: center;
+  width: 960px;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.modalTitle {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.modalTitle:hover {
+  color: var(--fourth-color);
+  text-decoration: underline;
+}
+.modalContainer a {
+  border-radius: 5px;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 20px 4px;
+}
+.modalContainer p {
+  line-height: 1.4;
+  font-size: 20px;
+  padding: 5px 0px;
+}
+.project-img {
+  height: 420px;
+  margin-bottom: 20px;
+}
+.button {
+  background: var(--primary-color);
+  border: 0;
+  border-radius: 5px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+
 /* WORK STYLES END */
 /* CONTACT ME STYLES START */
 .contact-title {
@@ -212,7 +273,6 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* position: absolute; */
 }
 
 #contact-form {
@@ -263,7 +323,8 @@ main {
 }
 .resume-link {
   width: 100%;
-  margin-left: 70px;
+  text-align: center;
+  font-size: 25px;
 }
 .skill-lists {
   margin: 10px 70px 5px 70px;
@@ -277,9 +338,7 @@ main {
   padding-bottom: 7px;
 }
 .resume-title {
-  width: 100%;
-  font-size: 40px;
-  padding: 40px 0px 20px 70px;
+  padding: 40px 0px 20px 0px;
 }
 
 #resume div {
@@ -316,26 +375,6 @@ footer {
 }
 /* FOOTER STYLES END */
 
-/* UTILITY STYLES START */
-.section-title {
-  display: flex;
-  justify-content: flex-start;
-  align-content: center;
-  flex-wrap: wrap;
-  font-size: 45px;
-  color: var(--secondary-color);
-  border-right: 3px solid;
-  text-align: left;
-  height: 500px;
-}
-.primary-border {
-  border-color: var(--primary-color);
-}
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
-/* UTILITY STYLES END */
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {

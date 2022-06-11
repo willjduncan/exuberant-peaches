@@ -1,20 +1,23 @@
 import React from 'react';
 
 const Project = ({ onClose, currentProject }) => {
-  const { name, description, url, img, index } = currentProject;
+  const { name, url, description, tools, img, index } = currentProject;
 
   return (
     <div className="modalBackdrop">
       <div className="modalContainer">
-        <h3 className="modalTitle">{name} </h3>
+        <a href={url} target="_blank">
+          <h3 className="modalTitle">{name}</h3>
+          </a>
         <img
-        //   src={require(`../../assets/project-imgs/${name}.jpg`).default}
-        src = {img}
-          alt="current category"
+          src={require(`../../../assets/project-imgs/${index}.jpg`)}
+          alt={name}
+          className="project-img"
         />
         <p>{description}</p>
-        <button type="button" onClick={onClose}>
-          Close this modal
+        <p>Made with {tools}</p>
+        <button type="button" className="button" onClick={onClose}>
+          Close
         </button>
       </div>
     </div>

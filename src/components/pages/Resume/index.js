@@ -6,7 +6,7 @@ function Resume() {
   return (
     <section className="my-5">
       <section id="resume" class="flex-row">
-        <h2 className="resume-title">Skills</h2>
+        <h2 className="resume-title portfolio-header">Skills</h2>
             <h3 className="resume-link">
               Download my resume{" "}
               <a href={resume} target="_blank" >
