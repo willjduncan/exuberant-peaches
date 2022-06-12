@@ -6,22 +6,16 @@ import author from "./../../assets/icons/open-book.png";
 function Footer() {
   return (
     <footer>
-      {/* <div> */}
-
-      <a href="https://github.com/willjduncan" target="_blank">
+      <a href="https://github.com/willjduncan" target="_blank" rel="noreferrer">
         <img src={github} className="icon" alt="cover" />
       </a>
-      <a href="https://linkedin.com/in/will-j-duncan" target="_blank">
+      <a href="https://linkedin.com/in/will-j-duncan" target="_blank" rel="noreferrer">
       <img src={linkedin} className="icon" alt="cover" />
       </a>
-      <a href="https://www.willduncanauthor.com"  target="_blank">
+      <a href="https://www.willduncanauthor.com"  target="_blank" rel="noreferrer">
       <img src={author} className="icon" alt="cover" />
       </a>
       <div className= "copyright">&copy; 2022 willjduncan.</div>
-      {/* </div> */}
-      
-
-      {/* <a href="https://www.flaticon.com/free-icons/book" title="book icons">Icons created by Roundicons Premium and Pixel Buddha - Flaticon</a> */}
     </footer>
   );
 }

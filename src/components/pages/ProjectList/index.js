@@ -72,10 +72,10 @@ const ProjectList = ({ name }) => {
             <img
               src={require(`../../../assets/project-imgs/${i}.jpg`)}
               alt={project.name}
-              className="img-fluid"
+              className="card-img"
               onClick={() => toggleModal(project, i)}
               />
-              <a href={project.url} target="_blank">
+              <a href={project.url} target="_blank" rel="noreferrer">
               <p>{project.name}</p>
               </a>
           </div>

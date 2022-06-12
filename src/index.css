@@ -157,13 +157,6 @@ header ul li a:hover {
     margin: 20px;
 }
 
-#work h2 {
-  margin: 0;
-}
-.work-boxes {
-  gap: 20px;
-}
-
 .card img {
   border-radius: 7px 7px 7px;
   height: 200px;
@@ -308,6 +301,7 @@ header ul li a:hover {
   background: var(--primary-color);
   color: var(--secondary-color);
   text-align: center;
+  margin-top: 10px;
   padding: 15px 0;
   font-size: 16px;
   border-radius: 10px;
@@ -375,157 +369,243 @@ footer {
 }
 /* FOOTER STYLES END */
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
+/* MEDIA QUERY FOR LARGER TABLETS*/
+@media screen and (max-width: 1180px) { 
   header {
+    background-position: 0% 6%;
     justify-content: center;
     position: relative;
+  }
+  .contact-bg {
+height: 550px;
+background-position: 0% 66%;
+
+  }
+
+}
+@media screen and (max-width: 1024px) { 
+  header {
+    background-position: 0% 0%;
+    justify-content: center;
+    position: relative;
+  }
+  .contact-bg {
+height: 500px;
+  }
+
+}
+@media screen and (max-width: 980px) {
+  .about-img {
+    height: 480px;
+  }
+  .card {
+    width: 45%;
+    height: 300px;
+  }
+  .card img {
+    height: 250px;
+  }
+  header {
+    color: var(--fourth-color);
+    height: 150px;
+    box-shadow: none;
   }
   header h1 {
     width: 100%;
     text-align: center;
   }
-  header nav ul {
+  header ul {
     margin-top: 20px;
     width: 100%;
     justify-content: center;
   }
-  header nav ul li a {
+  header ul li a {
     font-size: 20px;
+    padding: 7px 13px;
   }
-  .hero {
-    position: relative;
-  }
-  .hero h2 {
-    padding: 0 0 50px 50px;
-    position: absolute;
-    top: 10px;
-    width: 40%;
-  }
-  .section-title {
-    width: 22%;
-    height: 600px;
-    font-size: 40px;
-    align-content: flex-start;
-  }
-  .contact-info iframe {
-    flex: 1 100%;
-  }
-  footer h2,
-  footer div {
-    text-align: center;
-    width: 100%;
-  }
-  #contact-me h2 {
-    height: 740px;
-    padding: 0 30px 0 0;
-  }
-  .contact-info {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .address {
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-  }
-  #resume h2 {
-    height: 200px;
-  }
-  #resume h3 {
-    border-top: none;
-    margin: 0 30px;
-    width: 40%;
-  }
-  .flex-row {
-    flex-wrap: nowrap;
+  .resume-title {
+    padding-bottom: 1px;
   }
   #resume div {
     width: auto;
   }
+  header {
+    background-attachment: fixed;
+  }
+  .contact-bg {
+    background-position: 0% 0%;
+    /* background-position: 0% 260%; */
+    background-attachment:local;
+    background-attachment: fixed;
+    height: 450px;
+  }
+  
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-  section {
-    padding: 30px 15px;
+  header {
+    height: 190px;
+    background-image: none;
   }
-  .hero h2 {
-    padding: 0 0 70px 0;
+  header h1 a {
+    font-size: 60px;
   }
-  .section-title {
-    width: 100%;
-    height: 45px;
-    justify-content: center;
-    border-bottom: 3px solid;
+  .container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
   }
-  .about-me-text {
-    width: 100%;
+  .about-img {
+    height: 600px;
+    margin: 0 auto;
   }
-  .projects {
-    justify-content: center;
+  .about-text {
+    font-size: 1.5rem;
+    margin: 5px 20px;
+  }
+  
+  #about-title {
+    font-size: 2.7rem;
+  }
+  .card {
+    width: 80%;
+    height: 350px;
+  }
+  .card img {
+    height: 300px;
+  }
+  .icon {
+    height: 60px;
+  }
+  .contact-bg {
     height: 700px;
   }
-  .project {
-    width: 48%;
-    padding: 0;
-    margin: 0;
-  }
-  #work h2 {
-    height: 50px;
-  }
-  #nat-park-picker {
-    height: 200px;
+  .contact-title {
     width: 100%;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
   }
-  #contact-me {
-    display: block;
+  .contact-container {
+    margin: 0 15% 0 15%;
+    padding: 10px 40px 40px 40px;
   }
-  #contact-me h2 {
-    width: 100%;
-    height: 45px;
-    border-bottom: 3px solid;
+  
+  #contact-form {
+    align-self: center;
+    color: var(--primary-color);
+    padding: 15px 20px;
+    margin: 0 auto 0 auto;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    background-color: rgb(46, 64, 87, 0.5);
   }
-  .contact-info {
-    width: auto;
+
+  #contact-form button {
+    width: 30%;
   }
-  #resume h2 {
-    height: 45px;
+  .resume-link { 
+    font-size: 2rem;
+    padding: 30px 0;
   }
-  #resume h3 {
-    width: 100%;
+  .skill-lists {
+    margin: 10px 70px 5px 70px;
+  }
+  .skill-lists li {
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  .skill-title {
+    font-weight: bold;
+    line-height: 1.4;
+    padding-bottom: 10px;
+  }
+
+  #resume div {
     font-size: 30px;
   }
-  .flex-row {
-    display: block;
-  }
+
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  .hero h2 {
-    padding: 0;
-  }
-  .section-title {
-    width: 95%;
-  }
-  .intro p {
-    width: 100%;
-  }
-  .contact-info {
-    text-align: center;
-  }
-  .contact-info > * {
-    flex: 0 100%;
-  }
-  #resume h3 {
-    padding: 20px 0 0 0;
-  }
-  #resume div {
-    padding: 0;
-  }
+header h1 a {
+  font-size: 2.9rem;
+}
+.card {
+  width: 80%;
+  height: 320px;
+}
+.card img {
+  height: 280px;
+}
+.skill-title {
+padding-top: 10px;
+}
+#resume div {
+  display: block;
+  padding-bottom: 40px;
+}
+.resume-link { 
+  font-size: 2rem;
+  padding: 30px 0 0 0;
+}
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 400px) {
-  .project {
+@media screen and (max-width: 412px) {
+  .about-img {
+    height: auto;
+    width: 100%;
+  }
+  header {
+    height: 220px;
+  }
+  header h1 {
+    text-align: center;
+  }
+  header ul {
+    margin: 0;
+      }
+  header ul li {
+margin: 10px 3px;
+  }
+  #about-title {
+    font-size: 1.9rem;
+    margin: 0;
+  }
+  .about-text {
+    margin: 0;
+  }
+  .about-text p {
+    font-size: 1.2rem;
+  }
+  footer {
+    padding: 30px 10px 10px 10px;
+  }
+  .contact-container {
+    margin: 0 1% 0 1%;
+    padding: 0;
+  }
+  .contact-bg {
+    height: 600px;
+    background-position: 40% 0%;
+  }
+  .card {
+    width: 98%;
+    height: 280px;
+  }
+  .card img {
+    height: 230px;
+  }
+  .project-basin {
+    padding: 0%;
+  }
+  .card a p {
+    font-size: 20px;
+  }
+
+  /* .project {
     width: 100%;
   }
   .projects {
@@ -536,5 +616,5 @@ footer {
   }
   .contact-info > * {
     margin: 20px 0 0 0;
-  }
+  } */
 }

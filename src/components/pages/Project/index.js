@@ -1,12 +1,12 @@
 import React from 'react';
 
 const Project = ({ onClose, currentProject }) => {
-  const { name, url, description, tools, img, index } = currentProject;
+  const { name, url, description, tools, index } = currentProject;
 
   return (
     <div className="modalBackdrop">
       <div className="modalContainer">
-        <a href={url} target="_blank">
+        <a href={url} target="_blank" rel="noreferrer" >
           <h3 className="modalTitle">{name}</h3>
           </a>
         <img
