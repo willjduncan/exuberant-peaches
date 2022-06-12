@@ -136,9 +136,9 @@ The github repository to this project is below:
 [https://github.com/willjduncan/exuberant-peaches.git](https://github.com/willjduncan/exuberant-peaches.git)
 
 
-<!-- The live website is deployed on Github. The URL is below:
+The live website is deployed on Github. The URL is below:
 
-[https://secure-hollows-12001.herokuapp.com/](https://secure-hollows-12001.herokuapp.com/) -->
+[https://willjduncan.github.io/exuberant-peaches/](https://willjduncan.github.io/exuberant-peaches/)
 
 
 For any additional questions, I can be reached at the following
