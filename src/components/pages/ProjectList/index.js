@@ -9,6 +9,7 @@ const ProjectList = ({ name }) => {
     {
       name: "Hidden Gems",
       url: "https://thawing-springs-82201.herokuapp.com/",
+      repo: "https://github.com/willjduncan/Hidden-Gems.git",
       tools: "JavaScript/SQL/Sequelize/Handlebars.js/Express.js/CSS",
       img: "../../../assets/project-imgs/0.jpg",
       description:
@@ -17,6 +18,7 @@ const ProjectList = ({ name }) => {
     {
       name: "National Park Picker",
       url: "https://joshuad1590.github.io/national-park-picker/",
+      repo: "https://github.com/joshuad1590/national-park-picker.git",
       tools: "Javascript/HTML/CSS",
       img: "../../../assets/project-imgs/1.jpg",
       description:
@@ -25,6 +27,7 @@ const ProjectList = ({ name }) => {
     {
       name: "On The Code Blog Site",
       url: "https://willjduncan-on-the-code.herokuapp.com/",
+      repo: "https://github.com/willjduncan/On-the-Code-Blog-Site.git",
       tools: "JavaScript/SQL/Sequelize/Handlebars.js/Express.js",
       img: "../../../assets/project-imgs/2.jpg",
       description:
@@ -33,6 +36,7 @@ const ProjectList = ({ name }) => {
     {
       name: "Budget Tracker",
       url: "https://secure-hollows-12001.herokuapp.com/",
+      repo: "https://github.com/willjduncan/cuddly-pinnacle.git",
       tools: "PWA",
       img: "../../../assets/project-imgs/3.jpg",
       description:
@@ -41,6 +45,7 @@ const ProjectList = ({ name }) => {
     {
       name: "Note Taker",
       url: "https://willjduncan-note-taker.herokuapp.com/",
+      repo: "https://github.com/willjduncan/note-taker.git",
       tools: "Node.js/Express.js",
       img: "../../../assets/project-imgs/4.jpg",
       description: "A site that stores and saves notes.",
@@ -48,6 +53,7 @@ const ProjectList = ({ name }) => {
     {
       name: "Pizza Hunt",
       url: "https://stark-meadow-40862.herokuapp.com/",
+      repo: "https://github.com/willjduncan/pizza-hunt.git",
       tools: "Mongoose/NoSQL/Express.js/IndexedDB",
       img: "../../../assets/project-imgs/5.jpg",
       description:

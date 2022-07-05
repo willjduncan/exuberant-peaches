@@ -40,6 +40,7 @@ function ContactForm() {
     <section className='contact-bg'>
       <div className='contact-container'>
       <h1 className='contact-title'>Contact me</h1>
+      <h2 className='contact-title'></h2>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="Name">Name:</label>
@@ -60,6 +61,11 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">Submit</button>
       </form>
+      {/* <form id="contact-form" onSubmit={handleSubmit}>
+        <div>
+          
+          </div>
+      </form> */}
       </div>
         
     </section>
