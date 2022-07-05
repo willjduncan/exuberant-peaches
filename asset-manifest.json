@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/exuberant-peaches/static/css/main.90d6e559.css",
-    "main.js": "/exuberant-peaches/static/js/main.bfb244e2.js",
+    "main.css": "/exuberant-peaches/static/css/main.16611337.css",
+    "main.js": "/exuberant-peaches/static/js/main.18df126f.js",
     "static/js/787.e947ff73.chunk.js": "/exuberant-peaches/static/js/787.e947ff73.chunk.js",
     "static/media/ban1.png": "/exuberant-peaches/static/media/ban1.dcbc653fd00c341e6592.png",
     "static/media/tall-pic.webp": "/exuberant-peaches/static/media/tall-pic.93436612a0ab5635baed.webp",
@@ -16,12 +16,12 @@
     "static/media/linkedin.png": "/exuberant-peaches/static/media/linkedin.6892b3ae328c7a1e055f.png",
     "static/media/open-book.png": "/exuberant-peaches/static/media/open-book.3a336b5e01063f1c3a58.png",
     "index.html": "/exuberant-peaches/index.html",
-    "main.90d6e559.css.map": "/exuberant-peaches/static/css/main.90d6e559.css.map",
-    "main.bfb244e2.js.map": "/exuberant-peaches/static/js/main.bfb244e2.js.map",
+    "main.16611337.css.map": "/exuberant-peaches/static/css/main.16611337.css.map",
+    "main.18df126f.js.map": "/exuberant-peaches/static/js/main.18df126f.js.map",
     "787.e947ff73.chunk.js.map": "/exuberant-peaches/static/js/787.e947ff73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90d6e559.css",
-    "static/js/main.bfb244e2.js"
+    "static/css/main.16611337.css",
+    "static/js/main.18df126f.js"
   ]
 }
