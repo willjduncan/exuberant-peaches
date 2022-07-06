@@ -23,6 +23,7 @@ function Resume() {
             <li>Handlebars</li>
             <li>JQuery</li>
             <li>Jest</li>
+            <li>Bootstrap & Materialize</li>
           </ul>
           <ul className="skill-lists">
             <p className="skill-title">Back-End Proficiencies</p>

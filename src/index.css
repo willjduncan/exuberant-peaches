@@ -358,7 +358,7 @@ header ul li a:hover {
 footer {
   background: var(--secondary-color);
   width: 100%;
-  padding: 30px 140px 10px 140px;
+  padding: 25px 140px 10px 140px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -366,7 +366,7 @@ footer {
 }
 
 .icon {
-  height: 50px;
+  height: 45px;
 }
 
 .copyright {
