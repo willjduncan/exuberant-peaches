@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/exuberant-peaches/static/css/main.16611337.css",
-    "main.js": "/exuberant-peaches/static/js/main.18df126f.js",
+    "main.css": "/exuberant-peaches/static/css/main.9806b276.css",
+    "main.js": "/exuberant-peaches/static/js/main.dc6ff90f.js",
     "static/js/787.e947ff73.chunk.js": "/exuberant-peaches/static/js/787.e947ff73.chunk.js",
     "static/media/ban1.png": "/exuberant-peaches/static/media/ban1.dcbc653fd00c341e6592.png",
     "static/media/tall-pic.webp": "/exuberant-peaches/static/media/tall-pic.93436612a0ab5635baed.webp",
-    "static/media/5.jpg": "/exuberant-peaches/static/media/5.2b92946576c12eb77368.jpg",
-    "static/media/0.jpg": "/exuberant-peaches/static/media/0.3ca58917c226775d149e.jpg",
-    "static/media/2.jpg": "/exuberant-peaches/static/media/2.194a4c28b888da89dd7a.jpg",
-    "static/media/4.jpg": "/exuberant-peaches/static/media/4.4df26ba33ed0efe7ed74.jpg",
-    "static/media/1.jpg": "/exuberant-peaches/static/media/1.c97b15f75a5c2f928bda.jpg",
-    "static/media/3.jpg": "/exuberant-peaches/static/media/3.b7c2a0a27529f3bc54dd.jpg",
+    "static/media/0.jpg": "/exuberant-peaches/static/media/0.0b5a60bf3e43d63f8d85.jpg",
+    "static/media/1.jpg": "/exuberant-peaches/static/media/1.3ca58917c226775d149e.jpg",
+    "static/media/3.jpg": "/exuberant-peaches/static/media/3.194a4c28b888da89dd7a.jpg",
+    "static/media/5.jpg": "/exuberant-peaches/static/media/5.4df26ba33ed0efe7ed74.jpg",
+    "static/media/2.jpg": "/exuberant-peaches/static/media/2.c97b15f75a5c2f928bda.jpg",
+    "static/media/4.jpg": "/exuberant-peaches/static/media/4.b7c2a0a27529f3bc54dd.jpg",
     "static/media/resume.pdf": "/exuberant-peaches/static/media/resume.deb4a85f2c6f8ac7e352.pdf",
     "static/media/github.png": "/exuberant-peaches/static/media/github.44eee0c4a6c25b0d7347.png",
     "static/media/linkedin.png": "/exuberant-peaches/static/media/linkedin.6892b3ae328c7a1e055f.png",
     "static/media/open-book.png": "/exuberant-peaches/static/media/open-book.3a336b5e01063f1c3a58.png",
     "index.html": "/exuberant-peaches/index.html",
-    "main.16611337.css.map": "/exuberant-peaches/static/css/main.16611337.css.map",
-    "main.18df126f.js.map": "/exuberant-peaches/static/js/main.18df126f.js.map",
+    "main.9806b276.css.map": "/exuberant-peaches/static/css/main.9806b276.css.map",
+    "main.dc6ff90f.js.map": "/exuberant-peaches/static/js/main.dc6ff90f.js.map",
     "787.e947ff73.chunk.js.map": "/exuberant-peaches/static/js/787.e947ff73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16611337.css",
-    "static/js/main.18df126f.js"
+    "static/css/main.9806b276.css",
+    "static/js/main.dc6ff90f.js"
   ]
 }
