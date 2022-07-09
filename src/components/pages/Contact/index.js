@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 import { validateEmail } from '../../../utils/helpers';
 
@@ -8,11 +9,17 @@ function ContactForm() {
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
-  const handleSubmit = (e) => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    if (!errorMessage) {
-      console.log('Submit Form', formState);
-    }
+
+    emailjs.sendForm('service_5x88tyj', 'template_9w29b6t', form.current, 'DRRJlKa-zv5411BAR')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
   const handleChange = (e) => {
@@ -41,18 +48,18 @@ function ContactForm() {
       <div className='contact-container'>
       <h1 className='contact-title'>Contact me</h1>
       <h2 className='contact-title'></h2>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact-form" ref={form} onSubmit={sendEmail}>
         <div>
-          <label htmlFor="Name">Name:</label>
-          <input type="text" name="Name" defaultValue={name} onBlur={handleChange} />
+          <label htmlFor="from_name">Name:</label>
+          <input type="text" name="from_name" defaultValue={name} onBlur={handleChange} />
         </div>
         <div>
-          <label htmlFor="Email">Email address:</label>
-          <input type="email" name="Email" defaultValue={email} onBlur={handleChange} />
+          <label htmlFor="reply_to">Email address:</label>
+          <input type="email" name="reply_to" defaultValue={email} onBlur={handleChange} />
         </div>
         <div>
-          <label htmlFor="Message">Message:</label>
-          <textarea name="Message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <label htmlFor="message">Message:</label>
+          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
           <div>
@@ -61,11 +68,6 @@ function ContactForm() {
         )}
         <button data-testid="button" type="submit">Submit</button>
       </form>
-      {/* <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          
-          </div>
-      </form> */}
       </div>
         
     </section>
