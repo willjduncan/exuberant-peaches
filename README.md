@@ -113,7 +113,7 @@ Screenshots of the Nav component's index.js and ProjectList's index.js are below
 
 ## Credits
 
-The coding boot camp Professional README Guide found at https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide was used as a template for this README. The license was picked from [https://choosealicense.com/](https://choosealicense.com/).The WHEN/THEN section of this README was based off the project assignment Acceptance Criteria. Most influence was taken from Oh Snap of Module 20 and activity 4 of Module 20's in-class assignments. Many features were also translated from my original Professional Portfolio of Challenge 2. Stack Overflow, MDN Web Docs, W3, and Google were critical to our success. The icons in the footer were taken from flaticon: [https://www.flaticon.com/](https://www.flaticon.com/free-icons/book). They were designed by Roundicons Premium and Pixel Buddha. Images were for Budget Tracker and Pizza Hunt were taken from Pixabay. 
+ The license was picked from [https://choosealicense.com/](https://choosealicense.com/).The WHEN/THEN section of this README was based off the project assignment Acceptance Criteria. Most influence was taken from Oh Snap of Module 20 and activity 4 of Module 20's in-class assignments. Many features were also translated from my original Professional Portfolio of Challenge 2. Stack Overflow, MDN Web Docs, W3, and Google were critical to our success. The icons in the footer and for the tab were taken from flaticon: [https://www.flaticon.com/](https://www.flaticon.com/free-icons/book). They were designed by Roundicons Premium, Pixel Buddha and Freepik. Images were for Budget Tracker were taken from Pixabay. 
 
 
 

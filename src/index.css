@@ -35,7 +35,7 @@ header {
   background-color: var(--tertiary-color);
   background-image: url("./assets/banners/ban1.png");
   height: 130px;
-  background-position: 0% 41%;
+  background-position: 0% 39%;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -53,8 +53,12 @@ header h1 a {
   border-radius: 10px 10px 10px;
   color: #f4d35e;
   padding: 10px;
-  margin: 0 0 0 1em;
+  margin-left: 70px;
+  /* margin: 0 20px 0 1em; */
   text-shadow: 0 0 12px rgba(0, 0, 0, 1);
+}
+.nav-item {
+  margin: 0 5px 0 5px
 }
 header a {
   text-decoration: none;
@@ -262,10 +266,11 @@ header ul li a:hover {
 }
 .contact-bg {
   background-image: url("./assets/banners/ban1.png");
-  background-position: 0% 125%;
+  /* background-position: 0% 110%; */
+  background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 #contact-form {
@@ -317,6 +322,14 @@ header ul li a:hover {
   padding: 20px 0 3px 0;
   /* margin: 30px, auto 10px auto; */
   text-shadow: 0 0 12px rgba(0, 0, 0, 1);
+}
+.hidden {
+  opacity: 0;
+  font-size: 20px;
+}
+.fade-in {
+  transition: opacity 1s ease;
+  opacity: 1;
 }
 /* CONTACT ME STYLES END */
 /* RESUME STYLES START */
