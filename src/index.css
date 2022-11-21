@@ -27,6 +27,7 @@ main {
     rgba(255, 255, 255, 1) 0%,
     rgba(246, 216, 174, 0.53687412464986) 100%
   );
+  min-height: calc(100vh - 300px);
 }
 
 /* HEADER STYLES START */
@@ -376,6 +377,7 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   color: var(--primary-color);
+  height: 170px
 }
 
 .icon {
@@ -390,7 +392,29 @@ footer {
 }
 /* FOOTER STYLES END */
 
+
 /* MEDIA QUERY FOR LARGER TABLETS*/
+@media screen and (min-height: 950px) { 
+  .container{
+    min-height: calc(100vh - 300px);
+  }
+  .card {
+    height: calc(50vh - 300px);
+  }
+  .card img {
+    height: calc(50vh - 370px);
+  }
+  .contact-bg {
+    min-height: calc(100vh - 300px);
+    background-position: 0% 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header {
+    background-position: 0% 3%;
+  }
+
+}
 @media screen and (max-width: 1180px) { 
   header {
     background-position: 0% 6%;

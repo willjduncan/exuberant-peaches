@@ -20,15 +20,18 @@ function Resume() {
             <li>HTML</li>
             <li>CSS</li>
             <li>React.js</li>
-            <li>Handlebars</li>
             <li>JQuery</li>
+            <li>Handlebars</li> 
+            <li>Thymeleaf</li>
             <li>Jest</li>
             <li>Bootstrap & Materialize</li>
           </ul>
           <ul className="skill-lists">
             <p className="skill-title">Back-End Proficiencies</p>
+            <li>Java</li>
             <li>Node.js</li>
             <li>Express.js</li>
+            <li>Spring Boot</li>
             <li>SQL</li>
             <li>Sequelize</li>
             <li>NoSQL</li>
