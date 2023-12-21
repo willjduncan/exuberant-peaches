@@ -19,26 +19,27 @@ function Resume() {
             <li>Javascript</li>
             <li>HTML</li>
             <li>CSS</li>
+            <li>Vue</li>
             <li>React.js</li>
             <li>JQuery</li>
-            <li>Handlebars</li> 
-            <li>Thymeleaf</li>
             <li>Jest</li>
             <li>Bootstrap & Materialize</li>
           </ul>
           <ul className="skill-lists">
             <p className="skill-title">Back-End Proficiencies</p>
-            <li>Java</li>
+            <li>C# and the .NET Framework</li>
+            <li>Java and the Spring Framework</li>
             <li>Node.js</li>
-            <li>Express.js</li>
-            <li>Spring Boot</li>
             <li>SQL</li>
-            <li>Sequelize</li>
-            <li>NoSQL</li>
             <li>MongoDB</li>
             <li>Mongoose</li>
             <li>IndexedDB</li>
-            <li>Insomnia</li>
+          </ul>
+          <ul className="skill-lists">
+            <p className="skill-title">Other Proficiencies</p>
+            <li>DataDog</li>
+            <li>Jira & Confluence</li>
+            <li>Insomnia & Postman</li>
           </ul>
         </div>
       </section>
