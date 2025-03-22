@@ -17,11 +17,12 @@ function Resume() {
             {" "}
             <p className="skill-title">Front-End Proficiencies</p>
             <li>Javascript</li>
+            <li>React.js</li>
+            <li>Solid.js</li>
+            <li>Vue</li>
+            <li>JQuery</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>Vue</li>
-            <li>React.js</li>
-            <li>JQuery</li>
             <li>Jest</li>
             <li>Bootstrap & Materialize</li>
           </ul>
@@ -37,9 +38,12 @@ function Resume() {
           </ul>
           <ul className="skill-lists">
             <p className="skill-title">Other Proficiencies</p>
+            <li>AWS</li>
+            <li>Jenkins and Deployment Processes</li>
             <li>DataDog</li>
             <li>Jira & Confluence</li>
             <li>Insomnia & Postman</li>
+            <li>Ticket Writing and Business Communication</li>
           </ul>
         </div>
       </section>

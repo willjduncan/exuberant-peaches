@@ -15,7 +15,7 @@ function About() {
             I currently work as a Software Developer 
             for Armstrong Transport Group in Charlotte, NC. While there, I have worked 
             on frontend and backend capabilities, dealt with legacy code and production 
-            issues, and implemented third party integrations. Among other fun facts, I am
+            issues, implemented third party integrations, and designed and executed a table reconfiguration. Among other fun facts, I am
             an Eagle Scout, I've survived a grizzly encounter on a 2-month solo
             road trip visiting National Parks, and I've written and published my own novel, {" "}
             <em>Specks of Dust</em> .

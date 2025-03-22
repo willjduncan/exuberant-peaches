@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/exuberant-peaches/static/css/main.14caa266.css",
-    "main.js": "/exuberant-peaches/static/js/main.c5a0c175.js",
+    "main.css": "/exuberant-peaches/static/css/main.8302f93f.css",
+    "main.js": "/exuberant-peaches/static/js/main.69a2d2cc.js",
     "static/js/787.e947ff73.chunk.js": "/exuberant-peaches/static/js/787.e947ff73.chunk.js",
-    "static/media/ban1.png": "/exuberant-peaches/static/media/ban1.dcbc653fd00c341e6592.png",
+    "static/media/ban1.png": "/exuberant-peaches/static/media/ban1.6b63253b3445aaccbba5.png",
     "static/media/tall-pic.webp": "/exuberant-peaches/static/media/tall-pic.93436612a0ab5635baed.webp",
     "static/media/0.jpg": "/exuberant-peaches/static/media/0.0b5a60bf3e43d63f8d85.jpg",
     "static/media/1.jpg": "/exuberant-peaches/static/media/1.3ca58917c226775d149e.jpg",
@@ -11,17 +11,17 @@
     "static/media/5.jpg": "/exuberant-peaches/static/media/5.4df26ba33ed0efe7ed74.jpg",
     "static/media/2.jpg": "/exuberant-peaches/static/media/2.c97b15f75a5c2f928bda.jpg",
     "static/media/4.jpg": "/exuberant-peaches/static/media/4.b7c2a0a27529f3bc54dd.jpg",
-    "static/media/resume.pdf": "/exuberant-peaches/static/media/resume.52f02fd2713d523b416f.pdf",
+    "static/media/resume.pdf": "/exuberant-peaches/static/media/resume.db087856729d8ce0424f.pdf",
     "static/media/github.png": "/exuberant-peaches/static/media/github.44eee0c4a6c25b0d7347.png",
     "static/media/linkedin.png": "/exuberant-peaches/static/media/linkedin.6892b3ae328c7a1e055f.png",
     "static/media/open-book.png": "/exuberant-peaches/static/media/open-book.3a336b5e01063f1c3a58.png",
     "index.html": "/exuberant-peaches/index.html",
-    "main.14caa266.css.map": "/exuberant-peaches/static/css/main.14caa266.css.map",
-    "main.c5a0c175.js.map": "/exuberant-peaches/static/js/main.c5a0c175.js.map",
+    "main.8302f93f.css.map": "/exuberant-peaches/static/css/main.8302f93f.css.map",
+    "main.69a2d2cc.js.map": "/exuberant-peaches/static/js/main.69a2d2cc.js.map",
     "787.e947ff73.chunk.js.map": "/exuberant-peaches/static/js/787.e947ff73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14caa266.css",
-    "static/js/main.c5a0c175.js"
+    "static/css/main.8302f93f.css",
+    "static/js/main.69a2d2cc.js"
   ]
 }

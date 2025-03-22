@@ -59,7 +59,7 @@ header h1 a {
   text-shadow: 0 0 12px rgba(0, 0, 0, 1);
 }
 .nav-item {
-  margin: 0 5px 0 5px
+  margin: 0 5px 0 5px;
 }
 header a {
   text-decoration: none;
@@ -143,7 +143,7 @@ header ul li a:hover {
   margin: 0 auto 20px auto;
   font-size: 45px;
   color: var(--secondary-color);
-  text-shadow: 0 0 3px rgba(0, 0, 0, .2);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 .card {
   color: var(--fifth);
@@ -152,14 +152,14 @@ header ul li a:hover {
   -ms-transition: all 0.6s;
   -o-transition: all 0.6s;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-size: cover;
-    opacity: 0.7;
-    border: 3px solid var(--secondary-color);
-    border-radius: 10px 10px 10px;
-    width: 30%;
-    height: 250px;
-    text-align: center;
-    margin: 20px;
+  background-size: cover;
+  opacity: 0.7;
+  border: 3px solid var(--secondary-color);
+  border-radius: 10px 10px 10px;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+  margin: 20px;
 }
 
 .card img {
@@ -197,7 +197,7 @@ header ul li a:hover {
   right: 0;
   top: 0;
   z-index: 1;
-  color: var(--primary-color)
+  color: var(--primary-color);
 }
 
 .modalContainer {
@@ -207,7 +207,7 @@ header ul li a:hover {
   justify-content: center;
   width: 960px;
   text-align: center;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -377,7 +377,7 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   color: var(--primary-color);
-  height: 170px
+  height: 170px;
 }
 
 .icon {
@@ -392,10 +392,9 @@ footer {
 }
 /* FOOTER STYLES END */
 
-
 /* MEDIA QUERY FOR LARGER TABLETS*/
-@media screen and (min-height: 950px) { 
-  .container{
+@media screen and (min-height: 950px) {
+  .container {
     min-height: calc(100vh - 300px);
   }
   .card {
@@ -413,31 +412,27 @@ footer {
   header {
     background-position: 0% 3%;
   }
-
 }
-@media screen and (max-width: 1180px) { 
+@media screen and (max-width: 1180px) {
   header {
     background-position: 0% 6%;
     justify-content: center;
     position: relative;
   }
   .contact-bg {
-height: 550px;
-background-position: 0% 66%;
-
+    height: 550px;
+    background-position: 0% 66%;
   }
-
 }
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   header {
     background-position: 0% 0%;
     justify-content: center;
     position: relative;
   }
   .contact-bg {
-height: 500px;
+    height: 500px;
   }
-
 }
 @media screen and (max-width: 980px) {
   .about-img {
@@ -480,11 +475,10 @@ height: 500px;
   .contact-bg {
     background-position: 0% 0%;
     /* background-position: 0% 260%; */
-    background-attachment:local;
+    background-attachment: local;
     background-attachment: fixed;
     height: 450px;
   }
-  
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
@@ -499,7 +493,6 @@ height: 500px;
     display: block;
     margin: 0 auto;
     text-align: center;
-
   }
   .about-img {
     height: 600px;
@@ -509,7 +502,7 @@ height: 500px;
     font-size: 1.5rem;
     margin: 5px 20px;
   }
-  
+
   #about-title {
     font-size: 2.7rem;
   }
@@ -537,7 +530,7 @@ height: 500px;
     margin: 0 15% 0 15%;
     padding: 10px 40px 40px 40px;
   }
-  
+
   #contact-form {
     align-self: center;
     color: var(--primary-color);
@@ -551,7 +544,7 @@ height: 500px;
   #contact-form button {
     width: 30%;
   }
-  .resume-link { 
+  .resume-link {
     font-size: 2rem;
     padding: 30px 0;
   }
@@ -571,31 +564,30 @@ height: 500px;
   #resume div {
     font-size: 30px;
   }
-
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-header h1 a {
-  font-size: 2.9rem;
-}
-.card {
-  width: 80%;
-  height: 320px;
-}
-.card img {
-  height: 280px;
-}
-.skill-title {
-padding-top: 10px;
-}
-#resume div {
-  display: block;
-  padding-bottom: 40px;
-}
-.resume-link { 
-  font-size: 2rem;
-  padding: 30px 0 0 0;
-}
+  header h1 a {
+    font-size: 2.9rem;
+  }
+  .card {
+    width: 80%;
+    height: 320px;
+  }
+  .card img {
+    height: 280px;
+  }
+  .skill-title {
+    padding-top: 10px;
+  }
+  #resume div {
+    display: block;
+    padding-bottom: 40px;
+  }
+  .resume-link {
+    font-size: 2rem;
+    padding: 30px 0 0 0;
+  }
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 412px) {
@@ -611,9 +603,9 @@ padding-top: 10px;
   }
   header ul {
     margin: 0;
-      }
+  }
   header ul li {
-margin: 10px 3px;
+    margin: 10px 3px;
   }
   #about-title {
     font-size: 1.9rem;
